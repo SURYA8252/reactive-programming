@@ -1,0 +1,13 @@
+server:
+  port: 9293
+spring:
+  application:
+    name: REACTIVE-CRUD
+  r2dbc:
+    url: jdbc:postgresql://localhost:5432/microservice
+    username: postgres
+    password: RECOMMENDED
+#  jpa:
+#     hibernate:
+#       ddl-auto: update
+#     show-sql: true
